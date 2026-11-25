@@ -1,0 +1,541 @@
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            /* justify-content: space-around;  */
+            background-color: #fff;
+            /* border: solid; */
+            align-items: center;
+            /* margin: 0px auto; */
+            /* padding: 0px; */
+            /* justify-content: center; */
+            position: fixed;
+            background-size:100vw 100vh;
+            margin-bottom: 20px;
+        }
+        a{
+            margin:10px;
+            display: flex;
+            display: inline-block;
+            justify-content: left; 
+            font-family: sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: black;
+            text-decoration: none;
+        }
+        .nav{
+            padding: 0px 0px;
+            display: flex;
+            justify-content: left;
+            padding-right: 30px;
+        }
+        .logo{
+            /* width: 400px; */
+            display: flex;
+            justify-content: left;
+            margin: 10px 200px;
+        }
+        #logo{
+            height: 53px;
+            width: 223px;
+            /* margin-right: 100px;
+            padding-right: 100px;
+             */
+        }
+
+        #downBtn{
+            height: 40px;
+            width: 158px;
+            border-radius: 30px 30px 5px 30px;
+            background-color: black;
+            color: white;
+            font-family: "Noto Sans" sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            border:none;
+            text-align: center;
+        }
+        .poster{
+            /* width: 1500; */
+            width: 100%;
+            height: 700px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 100px;
+            background-color:#F7FAFF;
+            background-size:100vw 100vh;
+            
+
+        }
+        .poster h1{
+        
+            font-family: "Noto Sans", sans-serif;
+            /* font-family: 'Poppins', sans-serif; */
+            box-sizing: border-box;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 55px;
+            color: #333;
+            margin: 0px ;
+            padding-bottom: 10px;
+        }
+        .poster p{
+          
+            font-family: "Noto Sans", sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 34px;
+            color: #394454;
+            padding-bottom: 30px;
+        }
+        .pos{
+            margin-left: 40px;
+        }
+        .bookraid{
+            /* position: relative; */
+
+        }
+        .bookraid .fa-solid{
+            
+            position: absolute;
+            
+            left: 15px;
+            top: 35px;
+        }
+        .bookraid #loc{
+            position: absolute;
+            left: 15px;
+            top: 135px;
+        }
+        
+        #banner{
+            margin: 0px auto;
+            padding: 0px;
+            height: 400px;
+            width: 570px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .bookraid input{
+            height: 71px;
+            width: 600px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 10px;
+            border: 1px solid gray;
+            padding-left: 40px;
+            box-sizing: border-box;
+        }
+        .bookraid button{
+            height: 71px;
+            width: 600px;
+            background-color: #FFCA20;
+            font-size: 30px;
+            font-weight: 700;
+            border-radius: 5px;
+            margin-top: 20px;
+            border:1px 
+
+        }
+
+        .three{
+           margin: 50px 150px;
+           padding: 0px #FFCA20;
+           
+            
+        }
+        .box{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 40px;
+            column-gap: 40px;
+            margin-top: 40px;
+        }
+        .ourSer{
+            
+            /* margin-left: 10px; */
+            margin: 5px 0px 0px;
+            padding: 0px;
+            
+            
+
+        }
+        .ourSer h1{
+            margin: 0px auto;
+            padding: 0px;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .ourSer div{
+            height: 3px;
+            width: 135px;
+            background-color: #FFCA20;
+        }
+      
+        .box .card{
+            height: 150px;
+            width: 350px;
+            /* border: solid; */
+            border-radius: 6px;
+        }
+        .card img{
+            height: 150px;
+            width: 350px;
+        }
+
+        .four{
+            margin: 50px 150px;
+            padding: 0px;
+            background-color: #F6F7F9;
+            /* width: 100%; */
+          
+        }
+        .title h1{
+            margin: 0px auto;
+            padding: 0px;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 69px;
+            color: #000;
+        }
+        .title div{
+            height: 3px;
+            width: 135px;
+            background-color: #FFCA20;
+        }
+
+        .imgs{
+            display: flex;
+            justify-content: space-between;
+            row-gap: 30px;
+            margin-top: 30px
+        }
+        .imgCard{
+            height: 300px;
+            width: 319px;
+            /* border:solid ; */
+            border-radius: 26px 26px 0px 26px;
+           
+        }
+        .i1{
+            background-image: url('https://content-cus.rapido.bike/image/image.png');
+            background-size: cover;
+        }
+        .i2{
+            background-image: url('https://content-cus.rapido.bike/image/bestfare_offer.png');
+            background-size: cover;
+        }
+        .i3{
+            background-image: url('https://content-cus.rapido.bike/image/nevertofar_offer.png');
+            background-size: cover;
+        }
+
+        .details{
+            
+            display: flex;
+            justify-content: space-between;
+            row-gap: 0px;
+            /* column-gap: 80px; */
+            margin-top: 30px;
+            /* height : 104px;
+            width: 312px; */
+
+        }
+        .details h3{
+            margin: 0px auto;
+            padding: 10px 0px  0px;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            
+            color: #000;
+        }
+        .d1 p{
+            margin: 0px 0px 0px 0px;
+            padding: 10px 0px 20px ;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            /* column-gap: 10px; */
+            
+            color: #000;
+        }
+        .d1{
+            height: 66px;
+            width: 315px;
+        }
+
+        .earnWithRapi{
+            margin-top: 100px;
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+            height: 616px;
+            /* width: 1509px; */
+            width: 100%;
+            /* border: solid; */
+            background-color:#1E4B82;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 100px;
+        }
+        #ewrPoster{
+            margin-top: 50px;
+            height: 422px;
+            width: 512px;
+            /* border: solid; */
+            border-radius: 30px;
+            display: block;
+            background-image: url('https://content-cus.rapido.bike/image/showcase_image.png');
+            background-size: cover;
+        }
+        .ewrDesc{
+            
+            width: 555px;
+            height: 378px;
+            color: white;
+            font-family: "Noto Sans", sans-serif;
+            /* font-size: 48px; */
+        }
+        .ewrDesc h1{
+            font-size: 55px;
+            font-weight: 700;
+            margin-bottom: 0px;
+            padding: 0px;
+
+        }
+        
+        .ewrDesc div{
+            height: 3px;
+            width: 135px;
+            background-color: #FFCA20;
+
+        }
+        .ewrDesc p{
+            font-family: "Noto Sans", sans-serif;
+            font-size: 32px;
+            font-weight: 400;
+            /* line-height: 20px; */
+            color: #ffff;
+            padding-top: 30px;
+            padding-bottom: 60px;
+        }
+        .ewrDesc button{
+            height: 68px;
+            width: 300px;
+            border-radius: 35px;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 34px;
+            font-weight: 700;
+            /* line-height: 20px; */
+            color: #333;
+            background-color: #FFCA20;
+            border-color: #FFCA20;
+            border: none;
+        }
+      
+        #dwntitle h1{
+            margin: 0px auto;
+            padding: 0px;
+            /* display: inline-block; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Noto Sans", sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            /* line-height: 69px; */
+            color: #000;
+        }
+        #dwntitle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* display: inline-block; */
+             /* background-color: rgb(233, 230, 227); */
+            /* padding-top: 30px; */
+            position: relative;
+            
+            
+        }
+        #dwntitle .yyline{
+            height: 4px;
+            width: 145px;
+            background-color: #FFCA20;
+            position: absolute;
+            top:65px;
+            left:580px
+            
+
+
+        }
+        .ssss{
+            align-self: end;
+            align-content: end;
+        }
+
+        #Dwnbuttons{
+            margin: 0px auto;
+            padding: 0px;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            column-gap: 50px;
+            /* box-shadow: 10px; */
+            background-color:  rgb(243, 241, 240);
+        }
+        #Dwnbuttons div{
+            height: 200px;
+            width: 580px;
+            /* border: solid; */
+            border-radius: 20px;
+            /* column-gap: 50px; */
+            
+        }
+        #Dwnbuttons img{
+            height: 200px;
+            width: 580px;
+        }
+        body{
+             background-color: rgb(243, 241, 240);
+        }
+        .footer{
+            height: 350px;
+            width: 100%;
+            background-color: #000;
+            color: white;
+            font-size: 16px;
+        }
+
+
+
+        /* footer css */
+        .ddd{
+                width: 100%;
+                height: 350px;
+                /* border: solid; */
+                background-color: #000000;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .ddd-1{
+                width: 400px;
+                height: 150px;
+                /* border: solid; */
+                display: block;
+                justify-content: space-evenly;
+                padding-top: 30px;
+               
+            }
+            .ddd-1-1{
+                width: 400px;
+                height: 80px;
+                /* border: solid; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0px 60px;
+                font-family: "Noto Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 26px;
+                color: #fff;
+                background-color: #000000;
+            }
+            .ggg{
+                display: flex;
+                width: 400px;
+                height: 70px;
+                /* border: solid; */
+                justify-content: center;
+                align-items: center;
+                gap: 0px 30px;
+                background-color: #000000;
+            }
+            .zzzz{
+                width: 130px;
+                height: 50px;
+            }
+            .ddd-2{
+                width: 102px;
+                height: 350px;
+                font-family: "Noto Sans", sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                flex-wrap: wrap;
+                align-content: start;
+                color: white;
+                padding-top: 50px;
+
+            }
+            .ddd-2>a>p{
+                color: white;
+
+            }
+            .inp1{
+                padding-left: 20px;
+                box-sizing: border-box;
+            }
+            .inp2{
+                padding-left: 20px;
+                box-sizing: border-box;
+            }
+            .ddd-3{
+                width: 290px;
+                height: 250px;
+                padding: 0px;
+                margin: 0px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+                padding-top: 50px;
+            }
+            .ddd-3>a>p{
+                color: white;
+            }
+            .ddd-3 a{
+                align-self: start;
+            }
+            .ddd-4{
+                width: 184px;
+                height: 90px;
+                gap: 20px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                padding-top: 20px;
+            }
+            .ddd-4{
+                color: white;
+            }
+            .ddd-4 i{
+                align-self: center;
+            }
+            #popopop{
+                padding-top: 50px;
+                margin: 0px;
+            }
+
+            .socialmedia .fa-brands{
+                padding: 5%;
+            }
